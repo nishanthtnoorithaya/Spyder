@@ -8,7 +8,7 @@ Created on Thu Apr  1 15:44:24 2021
 
 import pyautogui as  pg
 
-#print(pg.size())      
+#print(pg.size())                 # Specifies the complete size of the laptop/Desktop.
 
 pg.moveTo(1167,745, duration = 1)  # This will move cursor to taskbar, where the teams app is present.
 pg.click(1167,745)                 # This will click on taskbar teams app
@@ -26,4 +26,4 @@ pg.click(885,134)                    # This will click on available status teams
 pg.moveTo(1352,21, duration = 1)      # This will move cursor to close bar of teams app.
 pg.click(1352,21)                     # This will click on close bar teams app, hence the teams app is closed from front. But from background it will running. 
 
-#print(pg.position())
+#print(pg.position())                 # Prints the current position of mouse pointer. 
